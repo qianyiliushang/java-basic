@@ -1,4 +1,4 @@
-Q: 参加阿里的一个测试开发岗位的面试被问到`String``StringBuilder`和`StringBuffer`的区别
+Q: 参加阿里的一个测试开发岗位的面试被问到`String`,`StringBuilder`和`StringBuffer`的区别
 
 回答的时候只考虑了使用场景和执行效率网上搜索了一些资料发现还是有其它方面区别的。
 首先是执行速度方面StringBuilder > StringBuffer > String,先看示例代码
