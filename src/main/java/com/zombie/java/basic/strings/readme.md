@@ -4,9 +4,9 @@ Q: 参加阿里的一个测试开发岗位的面试被问到`String`,`StringBuil
 首先是执行速度方面StringBuilder > StringBuffer > String,先看示例代码
 ```java
     public void Strings(){
-        String str = "hello";
+        String str = "Hello";
         System.out.println(str);
-        str += "world";
+        str += " world";
         System.out.println(str);
     }
 ```
