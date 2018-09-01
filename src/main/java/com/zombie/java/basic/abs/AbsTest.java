@@ -2,10 +2,11 @@ package com.zombie.java.basic.abs;
 
 public class AbsTest extends AbsClazz {
 
-    public AbsTest(int a) {
+    private AbsTest(int a) {
         super(a);
     }
 
+    @Override
     int getA() {
         return a;
     }

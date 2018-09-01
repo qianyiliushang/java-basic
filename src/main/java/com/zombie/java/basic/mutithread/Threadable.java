@@ -3,10 +3,11 @@ package com.zombie.java.basic.mutithread;
 public class Threadable extends Thread {
     private String name;
 
-    public Threadable(String name) {
+    private Threadable(String name) {
         this.name = name;
     }
 
+    @Override
     public void run() {
         for (int i = 0; i < 5; i++) {
             System.out.println(Thread.currentThread().getName() + " "+name + " " + i);
